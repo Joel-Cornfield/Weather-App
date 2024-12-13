@@ -1,0 +1,32 @@
+.content.loading > div {
+    place-self: center;
+    z-index: 2;
+    border: 0;
+    border-radius: 5px;
+    padding: 40px;
+    display: grid;
+    place-items: center;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(8px);
+    transition: filter 500ms linear;
+    max-width: 250px;
+    overflow: hidden; /* Ensures content doesn't overflow outside the container */
+}
+  
+.loader {
+    width: 50px;  /* Adjust the size of the wind icon */
+    height: 50px;  /* Adjust the size of the wind icon */
+    background-size: cover;
+    
+    animation: windMove 2s ease-in-out infinite alternate;
+}
+  
+@keyframes windMove {
+    0% {
+        transform: translateX(-100px); /* Start off-screen to the left with no rotation */
+    }
+    100% {
+        transform: translateX(100%); /* Move across container with slight rotation */
+    }
+}
+  

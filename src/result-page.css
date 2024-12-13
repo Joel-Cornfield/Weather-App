@@ -1,0 +1,41 @@
+.content.result > div {
+  place-self: center;
+  z-index: 2;
+  border: 0;
+  border-radius: 5px;
+  padding: 30px;
+  display: grid;
+  place-items: center;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(8px);
+  transition: filter 500ms linear;
+}
+
+.address {
+  color: #64748b;
+}
+
+.temp {
+  position: relative;
+  left: 10px;
+  font-size: 5rem;
+}
+
+.condition {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.data {
+  overflow: auto;
+  width: 300px;
+  height: 150px;
+}
+
+th {
+  text-align: left;
+}
+
+td {
+  text-align: right;
+}

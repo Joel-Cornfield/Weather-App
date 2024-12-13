@@ -1,9 +1,10 @@
-import './styles.css';
+import "./start-page";
+import "./common.css";
+import "./start-page.css";
+import "./result-page.css";
+import "./error-page.css";
+import "./loading-page.css"
+import restart from './restart';
+export default document.querySelector(".content");
 
-function component() {
-  const element = document.createElement('div');
-  element.textContent = 'Hello, Project Template!';
-  return element;
-}
-
-document.getElementById('app').appendChild(component());
+restart();
