@@ -1,5 +1,6 @@
 .content.start {
   place-content: center;
+  opacity: 80%
 }
 
 .content.start .logo {
