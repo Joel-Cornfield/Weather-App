@@ -26,3 +26,6 @@ Welcome to the **Weather App**, a dynamic and interactive web application for ch
 - **OpenWeather API:** Real-time weather data.
 
 ---
+
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/c1717b36-f40d-4c79-a673-508350ed7990" />
+
