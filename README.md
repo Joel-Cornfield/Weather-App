@@ -28,3 +28,6 @@ Welcome to the **Weather App**, a dynamic and interactive web application for ch
 
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/c1717b36-f40d-4c79-a673-508350ed7990" />
 
+<img width="959" height="493" alt="image" src="https://github.com/user-attachments/assets/a6c156a5-4ba3-46ac-8f51-5d2a00639d57" />
+
+
