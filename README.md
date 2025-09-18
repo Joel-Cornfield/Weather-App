@@ -11,7 +11,6 @@ Welcome to the **Weather App**, a dynamic and interactive web application for ch
 ## 📋 Features
 
 - **Search Functionality:** Enter a city name to fetch current weather data.
-- **Dynamic Background:** Background adjusts based on weather conditions.
 - **Responsive Design:** Works seamlessly on all device sizes.
 - **Weather Details:** Displays temperature, weather condition, and more.
 
